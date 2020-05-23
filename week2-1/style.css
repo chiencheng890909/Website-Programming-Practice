@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+table{
+    border:1px solid blue;
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+    border: 5px groove blue;
+    
+}
+
+div{
+    margin: 50px;
+}
+
+th{
+    border: 2px solid red;
+}
+
+td{
+    border-top: 1px dashed blue;
+}
