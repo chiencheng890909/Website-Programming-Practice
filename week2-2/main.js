@@ -35,8 +35,8 @@ $(document).ready(function(){
                             $("#question").text(finalAnswers[finalResult][0]);
                             
                             $("#options").empty();
-                            
-                            $("#options").append(finalAnswers[finalResult][1]+"<br><br>");
+                            $("#options").append("<span>&nbsp</span>");
+                            //$("#options").append(finalAnswers[finalResult][1]+"<br><br>");
 
                             currentQuiz=null;
 

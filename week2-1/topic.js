@@ -1,10 +1,10 @@
 let topicsArray = [
-    "課程介紹",
-    "隨機性",
-    "不上課",
-    "日期時間",
-    "不上課",
-    "條件判別",
+    "浪漫突進",
+    "死而復生",
+    "生死決鬥",
+    "月老要Line",
+    "浪漫火花",
+    "量子糾纏?",
 ];
 
 let startDate = new Date();
@@ -19,3 +19,5 @@ function setMonthAndDay(startMonth,startDay){
 }
 let date = document.getElementById('date');
 //指定第一天
+
+$("#Duke").attr("src","assets/img/浪漫Duke.jpg");

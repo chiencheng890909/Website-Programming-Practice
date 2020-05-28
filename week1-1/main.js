@@ -1,6 +1,6 @@
-let pictures = ["https://uc.udn.com.tw/photo/2019/12/11/realtime/7183211.jpg",
-"https://tokyo-kitchen.icook.network/cdn-cgi/image/cover/uploads/recipe/cover/180386/5775fef312fbf3e3.jpg",
-"https://linky.tw/wp/wp-content/uploads/2018/06/57eca2287749c_1024-1000x600.jpg"];
+let pictures = ["assets/img/浪漫突進.png",
+"assets/img/死而復生.png",
+"assets/img/紳士決鬥.png"];
 
 $(document).ready(function(){
     $("input").click(function(){
@@ -9,4 +9,7 @@ $(document).ready(function(){
         $("#random-result").text($("#choices li").eq(randomChildNumber).text());
         $("#random-img").attr("src", pictures[randomChildNumber]);
     });
+    $("#title").attr("src","assets/img/天公伯.jpg");
 });
+
+

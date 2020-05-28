@@ -3,22 +3,26 @@ body{
 }
 
 table{
-    border:1px solid blue;
+    border:1px solid lightblue;
     width: 60%;
     margin: auto;
     font-size: 1.5em;
-    border: 5px groove blue;
+    border: 5px groove lightblue;
     
 }
 
-div{
+#tb{
     margin: 50px;
 }
 
 th{
-    border: 2px solid red;
+    border: 2px solid lightblue;
 }
 
 td{
-    border-top: 1px dashed blue;
+    border-top: 1px dashed lightblue;
+}
+
+#Duke{
+    height: 500px;
 }
